@@ -1,0 +1,12 @@
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Infrastructure\AuthService.Infrastructure\obj\Debug\net8.0\AuthService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Infrastructure\AuthService.Infrastructure\obj\Debug\net8.0\AuthService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Infrastructure\AuthService.Infrastructure\obj\Debug\net8.0\AuthService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Infrastructure\AuthService.Infrastructure\obj\Debug\net8.0\AuthService.Infrastructure.AssemblyInfo.cs
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Infrastructure\AuthService.Infrastructure\obj\Debug\net8.0\AuthService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Infrastructure\AuthService.Infrastructure\bin\Debug\net8.0\AuthService.Infrastructure.deps.json
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Infrastructure\AuthService.Infrastructure\bin\Debug\net8.0\AuthService.Infrastructure.dll
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Infrastructure\AuthService.Infrastructure\bin\Debug\net8.0\AuthService.Infrastructure.pdb
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Infrastructure\AuthService.Infrastructure\obj\Debug\net8.0\AuthService.Infrastructure.dll
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Infrastructure\AuthService.Infrastructure\obj\Debug\net8.0\refint\AuthService.Infrastructure.dll
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Infrastructure\AuthService.Infrastructure\obj\Debug\net8.0\AuthService.Infrastructure.pdb
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Infrastructure\AuthService.Infrastructure\obj\Debug\net8.0\ref\AuthService.Infrastructure.dll

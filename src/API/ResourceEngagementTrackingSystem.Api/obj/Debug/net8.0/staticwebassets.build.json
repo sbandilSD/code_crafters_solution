@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gt8MQgpxVlkmWJaAb396lIiYVU2QTkLu9nN+vl5kohQ=",
+  "Source": "ResourceEngagementTrackingSystem.Api",
+  "BasePath": "_content/ResourceEngagementTrackingSystem.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

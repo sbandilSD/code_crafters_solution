@@ -1,0 +1,11 @@
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Application\AuthService.Application\bin\Debug\net8.0\AuthService.Application.deps.json
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Application\AuthService.Application\bin\Debug\net8.0\AuthService.Application.dll
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Application\AuthService.Application\bin\Debug\net8.0\AuthService.Application.pdb
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Application\AuthService.Application\obj\Debug\net8.0\AuthService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Application\AuthService.Application\obj\Debug\net8.0\AuthService.Application.AssemblyInfoInputs.cache
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Application\AuthService.Application\obj\Debug\net8.0\AuthService.Application.AssemblyInfo.cs
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Application\AuthService.Application\obj\Debug\net8.0\AuthService.Application.csproj.CoreCompileInputs.cache
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Application\AuthService.Application\obj\Debug\net8.0\AuthService.Application.dll
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Application\AuthService.Application\obj\Debug\net8.0\refint\AuthService.Application.dll
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Application\AuthService.Application\obj\Debug\net8.0\AuthService.Application.pdb
+C:\Users\piyushsinghjc\Downloads\AuthMicroservice\src\Application\AuthService.Application\obj\Debug\net8.0\ref\AuthService.Application.dll
