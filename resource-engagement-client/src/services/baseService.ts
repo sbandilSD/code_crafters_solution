@@ -38,7 +38,7 @@ class BaseServices {
 
   constructor() {
     // const baseURL = import.meta.env.VITE_API_BASE_URL ?? "/api/auth";
-    const baseURL = "http://localhost:3000/api/";
+    const baseURL = "http://localhost:5000/api/";
     console.log("API Base URL:", baseURL);
     this.instance = axios.create({
       baseURL,

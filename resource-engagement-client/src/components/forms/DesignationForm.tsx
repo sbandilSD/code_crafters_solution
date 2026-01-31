@@ -30,25 +30,47 @@ const DesignationForm: React.FC<DesignationFormProps> = ({
   editing,
 }) => {
   const { control, handleSubmit, reset } = useForm<FormValues>({
-    defaultValues: editing || { name: "", description: "" },
+    defaultValues: { name: "", description: "" },
   });
 
   React.useEffect(() => {
-    reset(editing || { name: "", description: "" });
-  }, [editing, reset]);
+    if (editing) {
+      reset({
+        name: editing.name || "",
+        description: editing.description || "",
+      });
+    } else {
+      reset({ name: "", description: "" });
+    }
+  }, [editing, reset, open]);
 
   const onSubmit = async (data: FormValues) => {
-    if (editing) {
-      await baseServices.put<void>(`designations/${editing.id}`, data);
-    } else {
-      await baseServices.post<void>("designations", data);
+    try {
+      console.log("Form data being submitted:", data);
+      console.log("Editing:", editing);
+      
+      if (editing) {
+        await baseServices.put<void>(`designations/${editing.id}`, data);
+        console.log("PUT request completed successfully");
+      } else {
+        await baseServices.post<void>("designations", data);
+        console.log("POST request completed successfully");
+      }
+      onSuccess();
+      reset({ name: "", description: "" }); // Reset form after successful submission
+      onClose();
+    } catch (error) {
+      console.error("Error saving designation:", error);
     }
-    onSuccess();
+  };
+
+  const handleClose = () => {
+    reset({ name: "", description: "" }); // Reset form when closing
     onClose();
   };
 
   return (
-    <Dialog open={open} onClose={onClose} maxWidth="xs" fullWidth>
+    <Dialog open={open} onClose={handleClose} maxWidth="xs" fullWidth>
       <DialogTitle>
         {editing ? "Edit Designation" : "Add Designation"}
       </DialogTitle>
@@ -85,7 +107,7 @@ const DesignationForm: React.FC<DesignationFormProps> = ({
           </Box>
         </DialogContent>
         <DialogActions>
-          <Button onClick={onClose}>Cancel</Button>
+          <Button onClick={handleClose}>Cancel</Button>
           <Button type="submit" variant="contained">
             {editing ? "Update" : "Create"}
           </Button>
